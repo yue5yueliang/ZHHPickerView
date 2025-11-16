@@ -1,0 +1,6 @@
+framework module Pods_ZHHPickerView_Example {
+  umbrella header "Pods-ZHHPickerView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
