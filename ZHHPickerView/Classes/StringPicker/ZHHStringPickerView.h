@@ -24,18 +24,18 @@ typedef NS_ENUM(NSInteger, ZHHStringPickerMode) {
 };
 
 /// 单列选择结果回调
-/// @param selectedModel 选中的数据模型
-/// @param selectedIndex 选中的索引
+/// @param model 选中的数据模型
+/// @param index 选中的索引
 typedef void(^ZHHSingleResultBlock)(ZHHStringPickerModel * _Nullable model, NSInteger index);
 
 /// 多列选择结果回调
-/// @param selectedModels 每列选中的数据模型数组（顺序对应列索引）
-/// @param selectedIndexes 每列选中的索引数组（顺序对应列索引）
+/// @param models 每列选中的数据模型数组（顺序对应列索引）
+/// @param indexes 每列选中的索引数组（顺序对应列索引）
 typedef void(^ZHHMultiResultBlock)(NSArray<ZHHStringPickerModel *> * _Nullable models, NSArray<NSNumber *> * _Nullable indexes);
 
 /// 字符串选择器统一回调（支持单列/多列）
-/// @param selectedModels 每列选中的数据模型数组
-/// @param selectedIndexes 每列选中的索引数组
+/// @param models 每列选中的数据模型数组
+/// @param indexes 每列选中的索引数组
 typedef void(^ZHHStringPickerResultBlock)(NSArray<ZHHStringPickerModel *> * _Nullable models, NSArray<NSNumber *> * _Nullable indexes);
 
 @interface ZHHStringPickerView : ZHHBasePickerView
