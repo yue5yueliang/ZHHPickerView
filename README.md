@@ -60,82 +60,82 @@
 
 展示各种基础样式配置和自定义选项。
 
-<div align="center">
-  <img src="screenshots/basic-effect-1.png" width="100" alt="基础效果1">
-  <img src="screenshots/basic-effect-2.png" width="100" alt="基础效果2">
-  <img src="screenshots/basic-effect-3.png" width="100" alt="基础效果3">
-  <img src="screenshots/basic-effect-4.png" width="100" alt="基础效果4">
+<div align="left">
+  <img src="screenshots/basic-effect-1.png" width="150" alt="基础效果1">
+  <img src="screenshots/basic-effect-2.png" width="150" alt="基础效果2">
+  <img src="screenshots/basic-effect-3.png" width="150" alt="基础效果3">
+  <img src="screenshots/basic-effect-4.png" width="150" alt="基础效果4">
 </div>
 
 ### 字符串选择器
 
 #### 单列选择器
 
-<div align="center">
-  <img src="screenshots/string-picker-single.png" width="100" alt="单列选择器">
+<div align="left">
+  <img src="screenshots/string-picker-single.png" width="150" alt="单列选择器">
 </div>
 
 #### 多列选择器
 
-<div align="center">
-  <img src="screenshots/string-picker-multiple-2.png" width="100" alt="两列选择器">
-  <img src="screenshots/string-picker-multiple-3.png" width="100" alt="三列选择器">
+<div align="left">
+  <img src="screenshots/string-picker-multiple-2.png" width="150" alt="两列选择器">
+  <img src="screenshots/string-picker-multiple-3.png" width="150" alt="三列选择器">
 </div>
 
 #### 联动选择器
 
-<div align="center">
-  <img src="screenshots/string-picker-cascade-2.png" width="100" alt="两列联动">
-  <img src="screenshots/string-picker-cascade-3.png" width="100" alt="三列联动">
+<div align="left">
+  <img src="screenshots/string-picker-cascade-2.png" width="150" alt="两列联动">
+  <img src="screenshots/string-picker-cascade-3.png" width="150" alt="三列联动">
 </div>
 
 #### 行政区划 - 单层级
 
-<div align="center">
-  <img src="screenshots/region-province.png" width="100" alt="省级">
-  <img src="screenshots/region-city.png" width="100" alt="地级">
-  <img src="screenshots/region-area.png" width="100" alt="县级">
-  <img src="screenshots/region-street.png" width="100" alt="乡级">
-  <img src="screenshots/region-village.png" width="100" alt="村级">
+<div align="left">
+  <img src="screenshots/region-province.png" width="150" alt="省级">
+  <img src="screenshots/region-city.png" width="150" alt="地级">
+  <img src="screenshots/region-area.png" width="150" alt="县级">
+  <img src="screenshots/region-street.png" width="150" alt="乡级">
+  <img src="screenshots/region-village.png" width="150" alt="村级">
 </div>
 
 #### 行政区划 - 多级联动
 
-<div align="center">
-  <img src="screenshots/region-pc-code.png" width="100" alt="省份城市二级联动">
-  <img src="screenshots/region-pca-code.png" width="100" alt="省份城市区县三级联动">
-  <img src="screenshots/region-pcas-code.png" width="100" alt="省份城市区县乡镇四级联动">
+<div align="left">
+  <img src="screenshots/region-pc-code.png" width="150" alt="省份城市二级联动">
+  <img src="screenshots/region-pca-code.png" width="150" alt="省份城市区县三级联动">
+  <img src="screenshots/region-pcas-code.png" width="150" alt="省份城市区县乡镇四级联动">
 </div>
 
 ### 日期选择器
 
 #### 系统样式
 
-<div align="center">
-  <img src="screenshots/date-picker-system-date.png" width="100" alt="年月日">
-  <img src="screenshots/date-picker-system-date-time.png" width="100" alt="年月日时分">
-  <img src="screenshots/date-picker-system-time.png" width="100" alt="时分">
-  <img src="screenshots/date-picker-system-countdown.png" width="100" alt="倒计时">
+<div align="left">
+  <img src="screenshots/date-picker-system-date.png" width="150" alt="年月日">
+  <img src="screenshots/date-picker-system-date-time.png" width="150" alt="年月日时分">
+  <img src="screenshots/date-picker-system-time.png" width="150" alt="时分">
+  <img src="screenshots/date-picker-system-countdown.png" width="150" alt="倒计时">
 </div>
 
 #### 自定义样式
 
-<div align="center">
-  <img src="screenshots/date-picker-ymdhms.png" width="100" alt="年月日时分秒">
-  <img src="screenshots/date-picker-ymdhm.png" width="100" alt="年月日时分">
-  <img src="screenshots/date-picker-ymdh.png" width="100" alt="年月日时">
-  <img src="screenshots/date-picker-mdhm.png" width="100" alt="月日时分">
-  <img src="screenshots/date-picker-ymd.png" width="100" alt="年月日">
-  <img src="screenshots/date-picker-ym.png" width="100" alt="年月">
-  <img src="screenshots/date-picker-y.png" width="100" alt="年">
-  <img src="screenshots/date-picker-md.png" width="100" alt="月日">
-  <img src="screenshots/date-picker-hms.png" width="100" alt="时分秒">
-  <img src="screenshots/date-picker-hm.png" width="100" alt="时分">
-  <img src="screenshots/date-picker-ms.png" width="100" alt="分秒">
-  <img src="screenshots/date-picker-yq.png" width="100" alt="年-季度">
-  <img src="screenshots/date-picker-ymw.png" width="100" alt="年月周">
-  <img src="screenshots/date-picker-yw.png" width="100" alt="年周">
-  <img src="screenshots/date-picker-custom-extra.png" width="100" alt="日期选择器示例">
+<div align="left">
+  <img src="screenshots/date-picker-ymdhms.png" width="150" alt="年月日时分秒">
+  <img src="screenshots/date-picker-ymdhm.png" width="150" alt="年月日时分">
+  <img src="screenshots/date-picker-ymdh.png" width="150" alt="年月日时">
+  <img src="screenshots/date-picker-mdhm.png" width="150" alt="月日时分">
+  <img src="screenshots/date-picker-ymd.png" width="150" alt="年月日">
+  <img src="screenshots/date-picker-ym.png" width="150" alt="年月">
+  <img src="screenshots/date-picker-y.png" width="150" alt="年">
+  <img src="screenshots/date-picker-md.png" width="150" alt="月日">
+  <img src="screenshots/date-picker-hms.png" width="150" alt="时分秒">
+  <img src="screenshots/date-picker-hm.png" width="150" alt="时分">
+  <img src="screenshots/date-picker-ms.png" width="150" alt="分秒">
+  <img src="screenshots/date-picker-yq.png" width="150" alt="年-季度">
+  <img src="screenshots/date-picker-ymw.png" width="150" alt="年月周">
+  <img src="screenshots/date-picker-yw.png" width="150" alt="年周">
+  <img src="screenshots/date-picker-custom-extra.png" width="150" alt="日期选择器示例">
 </div>
 
 ## 📱 要求
