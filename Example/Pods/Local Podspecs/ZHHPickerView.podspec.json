@@ -1,8 +1,8 @@
 {
   "name": "ZHHPickerView",
-  "version": "0.0.1",
-  "summary": "一个功能强大、易于使用的 iOS 选择器组件，支持日期选择器和字符串选择器。",
-  "description": "ZHHPickerView 是一个轻量级、高性能的 iOS 选择器组件库，基于 UIKit 实现。\n\n\n\n主要特性：\n\n- 📅 日期选择器：支持系统样式和自定义样式，涵盖年月日、时分秒等多种格式\n\n- 📝 字符串选择器：支持单列、多列、多级联动选择，灵活配置数据源\n\n- 🎨 丰富的自定义选项：支持自定义样式、颜色、字体、单位显示等\n\n- 🌍 国际化支持：内置多语言支持（中文、英文、繁体中文）\n\n- ⚡ 性能优化：优化的数据加载和渲染机制，流畅的滚动体验\n\n- 🔄 完整的回调机制：支持选择结果回调、滚动回调等\n\n- 📱 灵活配置：支持最小/最大日期限制、默认选中值、自动选择等\n\n- 🎯 易于集成：简洁的 API 设计，支持代码和文件两种数据源方式\n\n\n\n适用于日期选择、时间选择、地区选择、选项选择等多种场景。\n\n最低支持 iOS 13.0。",
+  "version": "1.0.0",
+  "summary": "iOS 日期选择器、字符串选择器（单列/多列/联动），支持 Swift。",
+  "description": "基于 UIPickerView 的底部弹窗选择器。支持日期选择（多种模式：年月日、时分、年月日时分等）、\n字符串单列/多列/多级联动选择；支持 plist/json 数据源、自定义样式与多语言。",
   "homepage": "https://github.com/yue5yueliang/ZHHPickerView",
   "license": {
     "type": "MIT",
@@ -13,37 +13,28 @@
   },
   "source": {
     "git": "https://github.com/yue5yueliang/ZHHPickerView.git",
-    "tag": "0.0.1"
+    "tag": "1.0.0"
   },
-  "social_media_url": "https://github.com/yue5yueliang",
-  "requires_arc": true,
   "platforms": {
     "ios": "13.0"
   },
-  "swift_versions": null,
+  "swift_versions": [
+    "5.0"
+  ],
   "default_subspecs": "Core",
   "subspecs": [
     {
-      "name": "Base",
-      "source_files": "ZHHPickerView/Classes/Base/**/*.{h,m}",
-      "public_header_files": "ZHHPickerView/Classes/Base/**/*.h",
+      "name": "Core",
+      "source_files": "ZHHPickerView/Classes/**/*.swift",
+      "resources": "ZHHPickerView/Classes/DatePicker/ZHHPickerView.bundle",
       "frameworks": [
         "UIKit",
         "Foundation"
       ]
     },
     {
-      "name": "DatePicker",
-      "dependencies": {
-        "ZHHPickerView/Base": []
-      },
-      "source_files": "ZHHPickerView/Classes/DatePicker/**/*.{h,m}",
-      "public_header_files": "ZHHPickerView/Classes/DatePicker/**/*.h",
-      "resource_bundles": {
-        "ZHHPickerView": [
-          "ZHHPickerView/Classes/DatePicker/ZHHPickerView.bundle/**/*"
-        ]
-      },
+      "name": "Base",
+      "source_files": "ZHHPickerView/Classes/Base/**/*.swift",
       "frameworks": [
         "UIKit",
         "Foundation"
@@ -51,27 +42,27 @@
     },
     {
       "name": "StringPicker",
+      "source_files": "ZHHPickerView/Classes/StringPicker/**/*.swift",
+      "frameworks": [
+        "UIKit",
+        "Foundation"
+      ],
       "dependencies": {
         "ZHHPickerView/Base": []
-      },
-      "source_files": "ZHHPickerView/Classes/StringPicker/**/*.{h,m}",
-      "public_header_files": "ZHHPickerView/Classes/StringPicker/**/*.h",
-      "frameworks": [
-        "UIKit",
-        "Foundation"
-      ]
+      }
     },
     {
-      "name": "Core",
-      "dependencies": {
-        "ZHHPickerView/Base": [],
-        "ZHHPickerView/DatePicker": [],
-        "ZHHPickerView/StringPicker": []
-      },
+      "name": "DatePicker",
+      "source_files": "ZHHPickerView/Classes/DatePicker/**/*.swift",
+      "resources": "ZHHPickerView/Classes/DatePicker/ZHHPickerView.bundle",
       "frameworks": [
         "UIKit",
         "Foundation"
-      ]
+      ],
+      "dependencies": {
+        "ZHHPickerView/Base": []
+      }
     }
-  ]
+  ],
+  "swift_version": "5.0"
 }

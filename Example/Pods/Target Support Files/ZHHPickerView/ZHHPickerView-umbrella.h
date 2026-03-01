@@ -10,13 +10,6 @@
 #endif
 #endif
 
-#import "ZHHBasePickerView.h"
-#import "NSBundle+ZHHDatePickerView.h"
-#import "NSDate+ZHHDatePickerView.h"
-#import "ZHHDatePickerView+Utilities.h"
-#import "ZHHDatePickerView.h"
-#import "ZHHStringPickerModel.h"
-#import "ZHHStringPickerView.h"
 
 FOUNDATION_EXPORT double ZHHPickerViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZHHPickerViewVersionString[];

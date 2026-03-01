@@ -1,0 +1,16 @@
+use_frameworks!
+
+platform :ios, '13.0'
+
+target 'ZHHPickerView_Example' do
+  pod 'ZHHPickerView', :path => '../'
+  pod 'LookinServer', :configurations => ['Debug']  # 自定义的服务器配置（仅在 Debug 模式下使用）
+  pod 'ZHHAnneKit'  # 自定义开发的工具库（常见功能封装）
+  pod 'ZHHRootNavigationController'  # 基于 UINavigationController，支持全局手势返回和导航管理
+
+  target 'ZHHPickerView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
