@@ -1,7 +1,7 @@
 {
   "name": "ZHHPickerView",
   "version": "1.0.0",
-  "summary": "iOS 日期选择器、字符串选择器（单列/多列/联动），支持 Swift。",
+  "summary": "iOS 日期选择器、字符串选择器（单列/多列/联动）",
   "description": "基于 UIPickerView 的底部弹窗选择器。支持日期选择（多种模式：年月日、时分、年月日时分等）、\n字符串单列/多列/多级联动选择；支持 plist/json 数据源、自定义样式与多语言。",
   "homepage": "https://github.com/yue5yueliang/ZHHPickerView",
   "license": {

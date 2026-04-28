@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## ZHHPickerView
 
-Copyright (c) 2026 yue5yueliang <136769890@qq.com>
+Copyright (c) 2025 桃色三岁 <136769890@qq.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

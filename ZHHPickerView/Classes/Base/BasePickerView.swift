@@ -42,7 +42,10 @@ open class BasePickerView: UIView {
     // MARK: - 尺寸配置
 
     /// 选择器内容区高度，默认 230 pt
-    public var pickerViewHeight: CGFloat = 230
+    public var pickerViewHeight: CGFloat = 230 {
+        didSet { contentViewHeightConstraint?.constant = totalContentViewHeight }
+    }
+    
     /// 顶部控制区域高度，默认 44 pt
     public var pickerHeaderViewHeight: CGFloat = 44 {
         didSet {
@@ -52,10 +55,12 @@ open class BasePickerView: UIView {
             if confirmButtonHeight == 0 { confirmButtonHeightConstraint?.constant = defaultBtnH }
         }
     }
+    
     /// 取消按钮左边距
     public var cancelButtonLeftMargin: CGFloat = 0 {
         didSet { cancelButtonLeadingConstraint?.constant = cancelButtonLeftMargin }
     }
+    
     /// 取消按钮宽度，默认 70 pt，设为 0 时隐藏
     public var cancelButtonWidth: CGFloat = 70 {
         didSet {
@@ -63,16 +68,25 @@ open class BasePickerView: UIView {
             cancelButton.isHidden = (cancelButtonWidth == 0)
         }
     }
+    
     /// 取消按钮高度
     public var cancelButtonHeight: CGFloat = 0 {
         didSet { cancelButtonHeightConstraint?.constant = cancelButtonHeight > 0 ? cancelButtonHeight : min(44, pickerHeaderViewHeight) }
     }
+    
     /// 确定按钮右边距
     public var confirmButtonRightMargin: CGFloat = 0 {
         didSet { confirmButtonTrailingConstraint?.constant = -confirmButtonRightMargin }
     }
-    /// 确定按钮宽度，默认 70 pt
-    public var confirmButtonWidth: CGFloat = 70
+    
+    /// 确定按钮宽度，默认 70 pt，设为 0 时隐藏
+    public var confirmButtonWidth: CGFloat = 70 {
+        didSet {
+            confirmButtonWidthConstraint?.constant = confirmButtonWidth
+            confirmButton.isHidden = (confirmButtonWidth == 0)
+        }
+    }
+    
     /// 确定按钮高度
     public var confirmButtonHeight: CGFloat = 0 {
         didSet { confirmButtonHeightConstraint?.constant = confirmButtonHeight > 0 ? confirmButtonHeight : min(44, pickerHeaderViewHeight) }

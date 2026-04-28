@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ZHHPickerView'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'iOS 日期选择器、字符串选择器（单列/多列/联动）'
 
   s.description      = <<-DESC
